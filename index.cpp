@@ -1,11 +1,17 @@
+/*Principales librerias de C++*/
 
-#include <iostream>
-#include <string>
+#include <iostream> /* libreria de entrada/salida estandar*/
+#include <string> /* libreria de cadenas de caracteres*/
+#include <cstdlib> /* libreria de funciones generales*/
+#include <limits> /* libreria para limites de tipos*/
+#include <cmath> /* libreria de funciones matematicas*/
+#include <ctime> /* libreria para funciones de tiempo*/ 
 
-int main()
+int main() /*main de la app*/
 {
   std::string name;
   std::cout << "What is your name? ";
   getline (std::cin, name);
   std::cout << "Hello, " << name << "!\n";
+  return 0; /*retorno de la funcion main*/
 }
